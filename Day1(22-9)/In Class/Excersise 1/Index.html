@@ -1,0 +1,146 @@
+<html>
+<head>
+    <h1>Hello World, Exercise 1: First Implementation</h1>
+</head>
+<h1><u>Basic, List</u></h1>
+<body>
+    <h1>Title h1</h1>
+    <h2>Title h1</h2>
+    <h3>Title h3</h3>
+    <h4>Title h4</h4>
+    <h5>Title h5</h5>
+    <h6>Title h6</h6>
+    <p>Paragraph</p>
+    <p><b>Bold</b></p>
+    <p><strong>Strong</strong></p>
+    <p><i>Italic</i></p>
+    <p><em>em</em></p>
+    <p><u>Underline</u></p>
+    <p><strike>Strikethrough</strike></p>
+    <p><sup>2</sup></p>
+    <p><sup>2</sup></p>
+    <!--https://unicode-table.com.en.00A9-->
+    <p>Copyright &#169; 2020</p>
+    <p>
+        <blockquote>Học, học nữa, học mãi.
+            <cite>&mdash; Lê-nin</cite>
+        </blockquote>
+    </p>
+    <p>
+        <address>KP6, Linh Trung, Thủ Đức, HCM.</address>
+    </p>
+</body>
+<body>
+    <ul>
+        <p>Danh sách website:</p>
+        <li><a href="http://uit.edu.vn/"target="_blank">UIT</a></li>
+        <li>SE</li>
+        <li>Website môn học UIT</li>
+    </ul>
+    <ol>
+        <p>Danh sách website:</p>
+        <li><a href="http://uit.edu.vn/"target="_blank">UIT</a></li>
+        <li>SE</li>
+        <li>Website môn học UIT</li>
+    </ol>
+</body>
+<body>
+    <a href="httpL//fb.com/">Facebook</a>
+    <a href="http://uit.edu.vn/" target="_blank"></a>
+    <br>
+    <a href="http://www.facebook.com/profile.php" target="blank">
+        <img src="fb-cover.jpg" alt="fb-cover" title="fb-cover" width="" height="">
+    </a>
+</body>
+
+<h1><u>Table</u></h1>
+<body>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Lớp</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td>PMCL</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nguyễn Văn B</td>
+            <td>KTPM</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">None</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>1</th>
+            <th>2</th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">None</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>1</th>
+            <th>2</th>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>Họ tên</th>
+            <td>Nguyễn Văn A</td>
+            <td>Nguyễn Văn B</td>
+            <td rowspan="2">None</td>
+        </tr>
+        <tr>
+            <th>Lớp</th>
+            <th>PMCL</th>
+            <th>TMCL</th>
+        </tr>
+    </table>
+</body>
+
+<h1><u>Form</u></h1>
+<head>
+    <title>HTML5</title>
+</head>
+<body>
+    <form action="" method="GET" accept-charset="UTF-8">
+        <!--action: java script
+            method: Get/POST/PUSH/PATCH/DELETE-->
+            <label for="full-name">Họ và tên:</label>
+            <input type="text" name="full-name" value="" placeholder="Họ và Tên">
+            <label for="about-your-self">Mô tả về bạn thân:</label>
+            <textarea name="about-your-self" id="" cols="30" rows="10"></textarea>
+            <button>Xóa dữ liệu</button>
+            <input type="submit" value="Gửi dữ liệu">
+            <!--
+            Type: color/checkbox/date/datetime/datetime-local/email/file/hidden/
+                image/month/number/password/radio/range/reset/search/tel/time/url/week
+            -->
+            <select name="" id="">
+                <optgroup label="UIT">
+                    <option value="">DAA</option>
+                    <option value="">Website môn học</option>
+                </optgroup>
+                <optgroup label="Mạng xã hội">
+                    <option value="">FB</option>
+                    <option value="">Zalo</option>
+                </optgroup>
+            </select>
+    </form>
+</body>
+
+</html>
