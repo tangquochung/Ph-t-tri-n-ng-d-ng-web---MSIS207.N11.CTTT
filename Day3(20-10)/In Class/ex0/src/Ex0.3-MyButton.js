@@ -1,8 +1,10 @@
-import*as React from "react";
+import * as React from "react";
 
 class MyButton extends React.Component {
     render() {
-        return <button>{this.prop.children}</button>;
+        return (
+        <button>{this.props.children}</button>
+        );
     }
 }
 

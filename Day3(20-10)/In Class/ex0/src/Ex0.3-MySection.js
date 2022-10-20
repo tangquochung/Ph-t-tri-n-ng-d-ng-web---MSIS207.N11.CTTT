@@ -1,4 +1,4 @@
-import*as React from "react";
+import * as React from "react";
 
 class MySection extends React.Component {
     render() {
