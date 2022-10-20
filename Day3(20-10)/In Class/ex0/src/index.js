@@ -1,3 +1,5 @@
+//Xem bai nao thi mo comment bai do
+
 //ex0
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
