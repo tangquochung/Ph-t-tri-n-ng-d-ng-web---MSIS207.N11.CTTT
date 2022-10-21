@@ -1,17 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//Xem bai nao thi mo comment bai do
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+//ex2.1
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from './Ex2.1-App';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//     <App />
+// );
+
+
+
+//ex2.2
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from './Ex2.2-App';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//     <App />
+// );
+
+
+
+//ex2.3
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from './Ex2.3-App';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//     <App />
+// );
