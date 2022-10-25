@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: black;
+    color: white  ;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color:#00bfbf;
+  }
+
+  .menu{
+    position: fixed;
+    right: 0;
+ }
+
+
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #FFE4C4;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+    filter: drop-shadow(0 0 0.3rem #000000);
+}
+
+.personal, .skills, .languages{
+    padding: 1rem;
+    line-height: 2;
+}
+
+.left, .experience, .education{
+    background-color: #FFF5EE;
+}
+
+.left-image{
+    position: relative;
+}
+
+.left-image img{
+    width: 100%;
+}
+
+.left-image h2{
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    color:#F0FFFF;
+}
+
+.checked {
+    color: #B8860B;
+    padding: 0.1rem;
+}
+
+.experience, .education{
+    line-height: 2;
+    padding: 2rem;
+}
+
+.experience ul{
+   margin: 2rem 0; 
+}
+
+.date{
+    color: #B8860B;
+}
+
+.current{
+    background-color: #B8860B;
+    color: #F0FFFF;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+.education{
+    background-color: #FFF5EE;
+}
+
+.education ul{
+    margin: 2rem 0;
+}
+
+
+i{
+    color: #B8860B;
+}
+
+footer{
+    background-color: #B8860B;
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 1.5;
+    color: #FFE4C4;
+}
+footer i{
+    color: #FFE4C4;
+}
