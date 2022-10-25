@@ -3,15 +3,20 @@
 
 .vertical-menu {
     width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
   }
   
   .vertical-menu a {
-    background-color: black;
-    color: white  ;
+    background-color: #FFF5EE;
+    color: #000000;
     display: block;
     padding: 12px;
     text-decoration: none;
+    filter: drop-shadow(0 0 0.3rem #000000)
   }
+
+
   
   .vertical-menu a:hover {
     background-color:#00bfbf;
