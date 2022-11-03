@@ -156,3 +156,14 @@ import First from "./Components/EX7First";
 import Second from "./Components/EX7Second";
 import Third from "./Components/EX7Third";
 
+export default function App({ links }) {
+  const [open, setOpen] = useState(false);
+
+  function toggleDrawer({ type, key, key}){
+    if(type ==="keydown" && (key === "Tab" || key === "Shift")) {
+      return;
+    }
+    
+    setOpen(!open);
+  }
+}
